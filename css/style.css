@@ -61,13 +61,17 @@ li {
 .carousel {
   box-shadow: 0 0 3px 1.5px #b3b6bb;
   background-color: #fff;
-  color: #041736;
   text-align: center;
   width: 95%;
   margin: 4rem auto;
+  height: 250px;
 }
 .carousel h1 {
   padding: 1rem 0;
+  margin-top: -35%;
+  color: teal;
+  opacity: 80%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .carousel p {
   line-height: 2;
