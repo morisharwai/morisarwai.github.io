@@ -59,7 +59,7 @@ li {
 }
 
 .carousel {
-  box-shadow: 0 0 3px 1.5px #b3b6bb;
+  /* box-shadow: 0 0 3px 1.5px #b3b6bb; */
   /* background-color: #fff; */
   text-align: center;
   width: 96%;
