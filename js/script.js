@@ -1,9 +1,5 @@
-const menu = document.querySelector(".menu");
-const nav = document.querySelector(".bottom");
-menu.addEventListener("click", () => {
-  if (nav.classList.contains("hidden")) {
-    nav.classList.remove("hidden");
-  } else {
-    nav.classList.add("hidden");
-  }
-});
+
+function toggleNav() {
+  var element = document.querySelector(".nav");
+  element.classList.toggle("newNavStyle");
+}
