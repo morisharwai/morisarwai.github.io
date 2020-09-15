@@ -1,5 +1,5 @@
 
 function toggleNav() {
-  var element = document.querySelector(".nav");
-  element.classList.toggle("newNavStyle");
+  const menu = document.querySelector(".nav");
+  menu.classList.toggle("newNavStyle");
 }
