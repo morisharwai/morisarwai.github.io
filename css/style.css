@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -5,6 +6,8 @@
 }
 body {
   background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
 }
 ul,
 li,
@@ -54,7 +57,7 @@ li {
   width: 0;
   visibility: hidden;
   /* transition: 0.5s; */
-  transition: all .5s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 .newNavStyle {
   background-color: #041736;
@@ -63,7 +66,8 @@ li {
   height: 100vh;
   visibility: visible;
   /* transition: 0.5s; */
-  transition: all .5s ease-in-out;
+  transition: all .25s ease-in-out;
+  font-size: 24pt;
 }
 
 .nav-links li {
